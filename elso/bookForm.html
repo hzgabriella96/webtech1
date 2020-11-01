@@ -1,0 +1,48 @@
+<html lang="en">
+<form method="post" action="/addBook">
+
+    <table>
+        <tr>
+            <td>title:</td>
+            <td><input type="text" name="title" required="required" autofocus/></td>
+        </tr>
+
+        <tr>
+            <td>author:</td>
+            <td><input type="text" name="author" required="required" /></td>
+        </tr>
+
+        <tr>
+            <td>genre:</td>
+            <td>
+                <select name="genre" required="required">
+                <option value="scifi">scifi</option>
+                <option value="fantasy">fantasy</option>
+            </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>quantity:</td>
+            <td><input type="number" name="quantity" required="required" /></td>
+        </tr>
+
+        <tr>
+            <td>available:</td>
+            <td><input type="number" name="available" required="required" /></td>
+        </tr>
+
+        <tr>
+            <td>publisher:</td>
+            <td><input type="email" name="publisher" required="required" /></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="insert" value="Add Book" /></td>
+        </tr>
+
+    </table>
+
+</form>
+
+</html>
