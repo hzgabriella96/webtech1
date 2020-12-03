@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    var carFrom = $("#cars");
-    console.log(carFrom);
-    carFrom.submit(function(e) {
+    var manufacturerForm = $("#manufacturers");
+    console.log(manufacturerForm);
+    manufacturerForm.submit(function(e) {
         e.preventDefault();
         console.log(e);
         console.log(this);
